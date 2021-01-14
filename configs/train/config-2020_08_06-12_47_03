@@ -1,0 +1,21 @@
+FourLayerNet_V2
+type channel-based
+data_path /Users/samhoover/bai-group/projects/data/chemistry-channel-info/no-0-kH_C18.csv
+mode train
+batch_size 32
+train_size 0.7
+val_size 0.15
+test_size 0.15
+num_epochs 500
+loss_fn RMSLE
+validate True
+optim Adam
+init_lr 0.005
+l2_reg 0.0
+betas (0.9, 0.999)
+eps 1e-08
+factor 0.5
+patience 50
+threshold 0.0001
+cooldown 0
+max_norm 5.0

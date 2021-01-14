@@ -1,0 +1,9 @@
+FourLayerNet_V2
+type channel-based
+data_path /Users/samhoover/bai-group/projects/data/chemistry-channel-info/no-0-kH_C18.csv
+mode predict
+batch_size 32
+train_size 0.5
+val_size 0.25
+test_size 0.25
+net_path /Users/samhoover/bai-group/projects/ml-predictions/saved-networks/zeoFourLayerNet_V2-SGD.pth

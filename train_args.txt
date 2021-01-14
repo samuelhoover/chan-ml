@@ -1,0 +1,13 @@
+--num_epochs=50
+--loss_fn=RMSLE
+--validate=False
+--optim=Adam
+--init_lr=1e-3
+--l2_reg=1e-3
+--patience=5
+--factor=0.75
+--threshold=1e-4
+--max_norm=20
+--print_every=20
+--plot_loss=True
+--save_net=False

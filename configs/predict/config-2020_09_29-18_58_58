@@ -1,0 +1,9 @@
+FourLayerNet_V5
+type channel-based
+data_path /Users/samhoover/bai-group/projects/data/chemistry-channel-info/kH_C18_nonzero.csv
+mode predict
+batch_size 32
+train_size 0.79
+val_size 0.2
+test_size 0.01
+net_path /Users/samhoover/bai-group/projects/ml-predictions/saved-networks/FourLayerNet_V5-2020_09_29-18_57_00.pth
