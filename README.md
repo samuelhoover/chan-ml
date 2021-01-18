@@ -13,4 +13,4 @@ To make sure all necessary packages and package versions are installed, do the f
 
 Run `./run_chan-ml.sh` to start training or predicting. Make sure your `gen_args.txt`, `train_args.txt`, and `predict_args.txt` argument files are configured correctly before beginning.
 
-May need to run `chmod +x run_chan-ml.sh` to change file permissions and make Bash script executable.
+May need to run `chmod +x run_chan-ml.sh` first to change file permissions and make Bash script executable. Afterwards there should be no need to re-run this line.
