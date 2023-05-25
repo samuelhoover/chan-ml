@@ -46,13 +46,13 @@ def train_evaluate(parameterization):
     torch.manual_seed(12345)
     net = TinyConvNet(output_size=(24, 24, 24))
     train_set = ZeoStructDataset(
-        csv_file='/Volumes/SH External HDD/Data/Zeolites/batch_V2/train/train_kH.csv',
-        root_dir='/Volumes/SH External HDD/Data/Zeolites/batch_V2/train/',
+        csv_file='/Data/Zeolites/batch_V2/train/train_kH.csv',
+        root_dir='/Data/Zeolites/batch_V2/train/',
         transform=transforms.Compose([PeriodicPadding(), ToTensor()]),
     )
     val_set = ZeoStructDataset(
-        csv_file='/Volumes/SH External HDD/Data/Zeolites/batch_V2/val/val_kH.csv',
-        root_dir='/Volumes/SH External HDD/Data/Zeolites/batch_V2/val/',
+        csv_file='/Data/Zeolites/batch_V2/val/val_kH.csv',
+        root_dir='/Data/Zeolites/batch_V2/val/',
         transform=transforms.Compose([PeriodicPadding(), ToTensor()]),
     )
     val_loader = DataLoader(val_set, batch_size=1, shuffle=True)
