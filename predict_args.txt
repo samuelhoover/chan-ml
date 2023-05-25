@@ -1,2 +1,2 @@
---net_path=/Users/samhoover/bai-group/projects/chan-ml/saved-networks/FourLayerNet_V3-2020_09_07-13_18_22.pth
---save_dir=/Users/samhoover/bai-group/projects/chan-ml/results/
+--net_path=<path to saved PyTorch model>
+--save_dir=<path to save results>
